@@ -24,5 +24,6 @@ SMSGuard is an AI-powered spam detection system that classifies SMS messages as 
 ### **Step 1: Clone the Repository**
 ```bash
 git clone <repository_url>
-cd smsguard```
+cd smsguard
 
+ed
