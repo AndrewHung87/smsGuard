@@ -84,6 +84,7 @@ Open this URL shown in the terminal in your browser to use the interface.
 
 ## **Project Structure**
 
+```
 smsguard/
 │
 ├─ data/
@@ -105,6 +106,7 @@ smsguard/
 │
 ├─ requirements.txt       # Required Python libraries
 └─ README.md              # Project documentation
+```
 
 
 ---
