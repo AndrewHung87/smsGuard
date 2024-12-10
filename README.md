@@ -22,8 +22,15 @@ SMSGuard is an AI-powered spam detection system that classifies SMS messages as 
 ## **Setup and Installation**
 
 ### **Step 1: Clone the Repository**
-```bash
+``
+bash
 git clone <repository_url>
 cd smsguard
+``
 
-ed
+### **Step 2: Create a Virtual Environment**
+Using `venv`:
+``
+python3 -m venv env
+source env/bin/activate  # On Windows: .\env\Scripts\activate
+``
