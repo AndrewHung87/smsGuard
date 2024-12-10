@@ -44,6 +44,7 @@ pip install -r requirements.txt
 ---
 
 ## **Dataset Preparation**
+
 1. Default Dataset:
    The repository includes a default dataset (`SMSSpamCollection`) in `data/raw/`.
 
@@ -56,6 +57,67 @@ pip install -r requirements.txt
 ---
 
 ## **Running the Application**
-Step 1: Train the Model
-To preprocess the data, train the model, and generate clustering visualizations:
 
+### **Step 1: Train the Model**
+To preprocess the data, train the model, and generate clustering visualizations:
+`
+python src/main.py
+`
+
+### **Step 2: Start the Web Application**
+To launch the Flask-based web interface:
+`
+python src/app.py
+`
+Open this URL shown in the terminal in your browser to use the interface.
+
+---
+
+## **Commands Summary**
+
+| **Command**                              | **Description**                                           |
+|------------------------------------------|-----------------------------------------------------------|
+| `python src/main.py`                     | Preprocesses data, trains the model, and saves it.        |
+| `python src/app.py`                      | Runs the Flask web app for predictions.                  |
+
+---
+
+## **Project Structure**
+
+smsguard/
+│
+├─ data/
+│  ├─ raw/                # Raw datasets (SMSSpamCollection, spam.csv, etc.)
+│  └─ processed/          # Processed data and visualizations
+│
+├─ models/                # Saved models and vectorizers
+│  ├─ trained_model.pkl   # Trained Naive Bayes model
+│  └─ vectorizer.pkl      # TF-IDF vectorizer
+│
+├─ src/
+│  ├─ utils.py            # Helper functions for loading data
+│  ├─ preprocess.py       # Text cleaning and preprocessing
+│  ├─ feature_extraction.py # TF-IDF vectorization
+│  ├─ cluster_analysis.py # K-Means clustering and analysis
+│  ├─ train_model.py      # Model training and evaluation
+│  ├─ main.py             # Orchestrates the entire process
+│  └─ app.py              # Flask application
+│
+├─ requirements.txt       # Required Python libraries
+└─ README.md              # Project documentation
+
+---
+
+## **References**
+
+UCI SMS Spam Collection Dataset
+https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+
+Kaggle SMS Spam Dataset
+https://www.kaggle.com/uciml/sms-spam-collection-dataset
+
+Scikit-learn Documentation
+https://scikit-learn.org/stable/
+
+Flask Documentation
+https://flask.palletsprojects.com/
