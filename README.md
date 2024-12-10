@@ -84,7 +84,28 @@ Open this URL shown in the terminal in your browser to use the interface.
 
 ## **Project Structure**
 
-smsguard/ │ ├─ data/ │ ├─ raw/ # Raw datasets (SMSSpamCollection, spam.csv, etc.) │ └─ processed/ # Processed data and visualizations │ ├─ models/ # Saved models and vectorizers │ ├─ trained_model.pkl # Trained Naive Bayes model │ └─ vectorizer.pkl # TF-IDF vectorizer │ ├─ src/ │ ├─ utils.py # Helper functions for loading data │ ├─ preprocess.py # Text cleaning and preprocessing │ ├─ feature_extraction.py # TF-IDF vectorization │ ├─ cluster_analysis.py # K-Means clustering and analysis │ ├─ train_model.py # Model training and evaluation │ ├─ main.py # Orchestrates the entire process │ └─ app.py # Flask application │ ├─ requirements.txt # Required Python libraries └─ README.md # Project documentation
+smsguard/
+│
+├─ data/
+│  ├─ raw/                # Raw datasets (SMSSpamCollection, spam.csv, etc.)
+│  └─ processed/          # Processed data and visualizations
+│
+├─ models/                # Saved models and vectorizers
+│  ├─ trained_model.pkl   # Trained Naive Bayes model
+│  └─ vectorizer.pkl      # TF-IDF vectorizer
+│
+├─ src/
+│  ├─ utils.py            # Helper functions for loading data
+│  ├─ preprocess.py       # Text cleaning and preprocessing
+│  ├─ feature_extraction.py # TF-IDF vectorization
+│  ├─ cluster_analysis.py # K-Means clustering and analysis
+│  ├─ train_model.py      # Model training and evaluation
+│  ├─ main.py             # Orchestrates the entire process
+│  └─ app.py              # Flask application
+│
+├─ requirements.txt       # Required Python libraries
+└─ README.md              # Project documentation
+
 
 ---
 
