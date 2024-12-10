@@ -45,13 +45,13 @@ pip install -r requirements.txt
 
 ## **Dataset Preparation**
 
-1. Default Dataset:
-   The repository includes a default dataset (`SMSSpamCollection`) in `data/raw/`.
+**1. Default Dataset:**
+   The repository includes a default dataset (`SMSSpamCollection`, `spam.csv`) in `data/raw/`.
 
-2. Additional Dataset:
-   If you have another dataset (e.g., `spam.csv`), place it in the `data/raw/` folder.
+**2. Additional Dataset:**
+   If you have another dataset, place it in the `data/raw/` folder.
 
-3. Combining Datasets:
+**3. Combining Datasets:**
    The application automatically combines datasets during preprocessing.
 
 ---
