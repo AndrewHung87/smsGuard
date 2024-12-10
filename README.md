@@ -34,3 +34,28 @@ Using `venv`:
 python3 -m venv env
 source env/bin/activate  # On Windows: .\env\Scripts\activate
 ``
+
+### **Step 3: Install Requirementst**
+Install all dependencies listed in `requirements.txt`: 
+``
+pip install -r requirements.txt
+``
+
+---
+
+## **Dataset Preparation**
+1. Default Dataset:
+   The repository includes a default dataset (`SMSSpamCollection`) in `data/raw/`.
+
+2. Additional Dataset:
+   If you have another dataset (e.g., `spam.csv`), place it in the `data/raw/` folder.
+
+3. Combining Datasets:
+   The application automatically combines datasets during preprocessing.
+
+---
+
+## **Running the Application**
+Step 1: Train the Model
+To preprocess the data, train the model, and generate clustering visualizations:
+
