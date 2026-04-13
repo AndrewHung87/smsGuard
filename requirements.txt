@@ -1,7 +1,25 @@
+# Core ML
 pandas
 scikit-learn
 nltk
 joblib
+numpy
+
+# ETL — Database
+sqlalchemy
+psycopg2-binary
+
+# ETL — BigQuery (comment out if not using GCP)
+google-cloud-bigquery
+pandas-gbq
+
+# Dashboard
+streamlit
+plotly
+
+# Web app (original Flask interface)
 Flask
 gunicorn
+
+# Visualisation (original)
 matplotlib

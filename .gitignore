@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.egg-info/
+.env
+
+# Data（不要推資料上去）
+data/raw/
+data/processed/
+
+# Models（pkl 檔太大）
+models/
+
+# Logs
+logs/
+
+# OS 檔案
+.DS_Store        # macOS 才有
+Thumbs.db        # Windows 才有
+
+# IDE
+.vscode/
+.idea/
